@@ -1,0 +1,19 @@
+{
+  "Name": "sense_touch",
+  "UniqueId": "0723e9a7-8e10-4931-b2a1-9a36b895a04c",
+  "Description": "this skill makes misty publish touch events",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 86400,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
