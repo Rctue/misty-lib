@@ -1,0 +1,8 @@
+#commands used to install mistydemo in python environment
+conda create -n mistydemo3 python==3.12
+conda activate mistydemo3
+python --version
+pip --version
+pip install misty-sdk constants
+pip install faster-whisper sounddevice soundfile
+pip install torch google-genai python-dotenv

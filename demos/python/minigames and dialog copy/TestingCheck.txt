@@ -1,0 +1,214 @@
+Interaction
+
+Head touch		-> Greeting consent
+Button			-> Greeting consent
+Face recognition	-> Greeting consent
+
+Greeting consent
+
+No			-> Back to idle
+Yes			-> Greeting scanning
+
+Greeting scanning
+
+No			-> Game Menu
+Yes			-> Game Menu
+
+Game Menu
+
+No			-> Idle
+Left (Yes)		-> Random Game
+
+
+
+
+
+
+
+Game: Reaction Test (1/3)
+-Intro speech
+
+Right (Not start)	-> Game menu
+Left (Start)		-> (2/3)
+
+Reaction Test (2/3)
+- Oke get ready -> waiting time
+
+Left/Right		-> (3/3)
+
+Reaction Test (3/3)
+
+Right			-> Game Menu
+Left			-> Rematch speech -> (1/3)
+
+
+
+
+
+
+
+
+Game: Staring Contest
+
+Right			
+Left			-> Game
+
+Staring Contest Game
+- Human Looked Away	-> Misty happy -> End
+- Misty Looses		-> ?
+
+- Right			-> Forfeit speech -> End
+- Left			-> Forfeit speech -> End
+
+Staring Contest End
+
+Right			-> Bye Speech -> Game Menu
+Left			-> Rematch
+
+
+
+
+
+
+
+
+Game: Copy Move
+- Intro speech
+
+Right			-> Game Menu
+Left			-> First pose
+
+Copy Move (show pose 1)
+
+Right			-> Sad speech -> next pose
+Left 			-> Happy speech -> next pose
+
+Copy Move (show pose 2)
+
+Right			-> Sad speech -> next pose
+Left			-> Happy speech -> next pose
+
+Cope Move (show pose 3)
+
+Right			-> Sad speech -> next pose
+Left			-> Happy speech -> scores
+
+Copy Move (3 correct)
+- Happy speech -> End
+
+Copy Move (2 correct)
+- Good speech -> End
+
+Copy Move (1 correct)
+- Poses clearer speech -> End
+
+Copy Move (0 correct)
+- Sad misty speech -> End
+
+Copy Move (End)
+
+Right			-> Game Menu
+Left			-> Rematch
+
+
+
+
+
+
+
+Game: Emotion Guess	(Happy was displayed as angry?)
+- Intro speech
+
+Right			-> Game Menu
+Left (Start)		-> Short speech -> emotion 1
+
+Emotion Guess (emotion 1)
+
+Right (No)		-> G/W -> emotion 2
+Left (Yes)		-> G/W -> emotion 2
+
+Emotion Guess (emotion 2)
+
+Right (No)		-> G/W -> emotion 3
+Left (Yes)		-> G/W -> emotion 3
+
+Emotion Guess (emotion 3)
+
+Right (No)		-> G/W -> correct
+Left (Yes)		-> G/W -> correct
+
+G (good) -> Happy Misty speech
+W (wrong) -> Lot to learn Misty speech
+
+Emotion Guess (3 correct)
+- Happy speech -> End
+Emotion Guess (2 correct)
+- Great Job speech -> End
+Emotion Guess (1 correct)
+- Emotion hard to read speech -> End
+Emotion Guess (0 correct)
+- Very Sad Misty speech -> End
+
+Emotion Guess (End)
+
+Right			-> Game Menu
+Left			-> Rematch
+
+
+
+
+
+
+
+Game: Sorting
+- Intro speech -> (Already good score -> harder round)
+
+Right (Not Ready)	-> Bye speech -> Game Menu
+Left (Ready)		-> Categories speech -> item 1
+
+Sorting (Item 1)
+
+Right			-> G/W -> Item 2
+Left			-> G/W -> Item 2
+
+Sorting (Item 2)
+
+Right			-> G/W -> Item 3
+Left			-> G/W -> Item 3
+
+Sorting (Item 3)
+
+Right			-> G/W -> Item 4
+Left			-> G/W -> Item 4
+
+Sorting (Item 4)
+
+Right			-> G/W -> Item 5
+Left			-> G/W -> Item 5
+
+Sorting (Item 5)
+
+Right			-> G/W -> correct
+Left			-> G/W -> correct
+
+G (Good) -> Happy Misty speech
+W (Wrong) -> Sad misty speech (correct category explanation or easy mistake)
+
+Sorting (5 correct)
+- Perfect score speech -> End
+Sorting (4 correct)
+- Almost perfect speech -> End
+Sorting (3 correct)
+- A few mistakes speech -> End
+Sorting (2 correct)
+- Not bad, few slip trough speech -> End
+Sorting (1 correct)
+- Not bad, few slip trough speech -> End
+Sorting (0 correct)
+- Sad misty speech -> End
+
+
+Sorting (End)
+
+Right			-> Game Menu
+Left			-> Rematch

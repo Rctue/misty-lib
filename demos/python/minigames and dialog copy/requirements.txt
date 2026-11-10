@@ -1,0 +1,8 @@
+misty-sdk
+constants
+faster-whisper
+sounddevice
+soundfile
+torch --index-url https://download.pytorch.org/whl/cu128
+google-genai
+python-dotenv
